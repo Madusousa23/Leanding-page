@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Poppins:wght@100&family=Righteous&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+font-size: 100%;
+background-color: #EEE8AA;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+} 
+
+.cabecalho-titulo{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    display: block;
+    flex-direction: column-reverse;
+    gap: 32px;
+    
+}
+
+.cabecalho-imagem {
+    height: 150px;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Pacifico', cursive;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #BDB76B	;
+    Width: 180px;
+    Height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Pacifico', cursive;;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.cabecalho-menu-item:hover{
+    background-color: #FFFFF0;
+}
+
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #F0FFFF ;
+    
+}
+
+.conteudo-principal{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+display: flex;
+flex-direction: column;
+gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Pacifico', cursive;;
+    color: #000000;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #BDB76B	;
+    Width: 180px;
+    Height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Pacifico', cursive;;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.conteudo-principal-escrito-botao:hover {
+    background-color: #FAFAD2;
+}
+
+
+
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #F0FFFF;    
+    }
